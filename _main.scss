@@ -1,0 +1,28 @@
+.img-container {
+  width: 70%;
+  max-width: 550px;
+  overflow: hidden;
+  margin-left: 1rem;
+  border-radius: 1em;
+}
+.portrait {
+  width: 100%;
+  filter: blur(0.5rem);
+  //   transform: scaleX(-1);
+  &:hover {
+    // filter: blur(0rem);
+    transition: transform 350ms ease-in-out;
+    transform: scale(1.1);
+  }
+}
+
+section.card {
+  border-radius: 1em;
+  transition: transform 350ms ease-in-out;
+  background-color: white;
+  max-width: 70%;
+  position: relative;
+  bottom: 150px;
+  left: 50px;
+  padding: 1rem;
+}

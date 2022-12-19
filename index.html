@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sofia Jespersen</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- js -->
+    <script src="script.js" defer></script>
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Source+Sans+Pro:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="page-container" id="top">
+      <header>
+        <div class="header-wrapper center p-1">
+          <span><i class="fa-solid fa-rainbow"></i></span>
+          <button
+            aria-controls="primary-nav"
+            aria-expanded="false"
+            class="mobile-nav-toggle"
+          >
+            Menu
+          </button>
+          <nav>
+            <ul id="primary-nav" data-visible="false" class="primary-nav" aria>
+              <li><a href="#" class="active-page">Hem</a></li>
+              <li><a href="#">Om</a></li>
+              <li><a href="#">Projekt</a></li>
+              <li><a href="#">Kontakt</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <div class="page-content center p-1">
+        <div class="img-container">
+          <img src="assets/mig.jpeg" class="portrait" alt="smmiling woman" />
+        </div>
+        <section class="card">
+          <h1>
+            Sofia <br />
+            Jespersen
+          </h1>
+          <p>
+            Nyfiken frontend-student med känsla för färg och form. Studerar just
+            nu mitt första år på Nackademin Yrkeshögskola i Stockholm.
+          </p>
+        </section>
+      </div>
+
+      <a class="floating-btn" href="#top">
+        <i class="fa-solid fa-arrow-up"></i>
+      </a>
+      <footer>
+        <div class="footer-wrapper center">
+          <section>
+            <h1>Sidlänkar</h1>
+            <ul>
+              <li><a href="#">Hem</a></li>
+              <li><a href="#">Om</a></li>
+              <li><a href="#">Projekt</a></li>
+              <li><a href="#">Kontakt</a></li>
+            </ul>
+          </section>
+          <section>
+            <h1>Kontakt</h1>
+            <p>
+              tel: 073-0447631 <br />
+              mail: sofia.jespersen@hotmail.com
+            </p>
+          </section>
+          <section>
+            <h1>Sociala medier</h1>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-square-github"></i>
+            <i class="fa-brands fa-instagram"></i>
+          </section>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

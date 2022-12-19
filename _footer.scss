@@ -1,0 +1,33 @@
+//footer
+footer {
+  // border-top: 1px solid $footerElements;
+  // font-size: 0.9rem;
+  // box-shadow: 0 0 5px gray;
+
+  background-color: $footerColor;
+  color: $footerElements;
+  .footer-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 1rem;
+    justify-content: space-between;
+    @include md {
+      flex-direction: row;
+    }
+  }
+  a {
+    color: $footerElements;
+  }
+  h1 {
+    font-size: 1rem;
+    color: $footerElements;
+  }
+  i {
+    color: $footerElements;
+    font-size: 1.4rem;
+    padding-right: 0.5rem;
+  }
+  ul {
+    list-style: none;
+  }
+}
